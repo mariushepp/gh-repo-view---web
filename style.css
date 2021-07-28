@@ -1,0 +1,106 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  color: whitesmoke;
+  font-size: large;
+  line-height: normal;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: whitesmoke;
+  font-family: 'Libre Baskerville', serif;
+  font-size: xx-large;
+  line-height: normal;
+  letter-spacing: 0.02em;
+}
+
+p {
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  font-size: large;
+}
+
+.segment {
+  padding: 100px;
+}
+
+.button {
+  padding: 20px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: snow;
+  border-width: 1px;
+}
+
+.button:hover {
+  padding: 20px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: snow;
+  border-width: 1px;
+  background-color: snow;
+  color: #e76f51;
+  font-weight: bold;
+}
+
+
+#one {
+  height: 60vh;
+  background:linear-gradient(0deg, rgba(38, 70, 83, 0.85), rgba(38, 70, 83, 0.85)), url("images/mountains.jpg");
+  background-size: cover;
+  background-position: center bottom;
+}
+
+#two {
+  background-color: #2a9d8f;
+}
+
+#three {
+  background-color: #e9c46a;
+}
+
+#four {
+  background-color: #f4a261;
+}
+
+#five {
+  background-color: #e76f51;
+}
+
+#headline1 {
+  font-size: 3em;
+  line-height: 70%;
+}
+
+#headline2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 120%;
+}
+
+@media (max-width: 700px) {
+  /* For a screen < 700px, this CSS will be read */
+  #headline1 {
+    font-size: 2em;
+  }
+  #headline2 {
+    font-size: 1em;
+  }
+}
